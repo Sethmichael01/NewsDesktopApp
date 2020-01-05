@@ -195,7 +195,7 @@ namespace MyNewsApp_Desktop_
 
         private void button6_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("The NewsApp was created by Seth Michael on {0}, this software fetches data from a data source(API) and displays the informaion gathered.", DateTime.Now.ToShortDateString());
+            MessageBox.Show("The NewsApp was created by Seth Michael, this software fetches data from a data source(API) and displays the informaion gathered.", DateTime.Now.ToShortDateString());
         }
     }
 }
