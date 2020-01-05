@@ -50,9 +50,9 @@ namespace MyNewsApp_Desktop_
 
 
             }
-            catch (IOException ex)
+            catch (Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException)
             {
-                MessageBox.Show("Check Internet Connection "+ex);
+                MessageBox.Show("Check Internet Connection ");
             }
            
             //this.URI_Collection.Add(Google_URI);
@@ -65,9 +65,9 @@ namespace MyNewsApp_Desktop_
                 Root = await Config.Deserialize(this.URI_Collection[SourceCounter]);
                 SetupForm();
             }
-            catch(IOException ex)
+            catch(Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException)
             {
-                MessageBox.Show("Check Internet Connection "+ ex);
+                MessageBox.Show("Check Internet Connection ");
             }
            
         }
@@ -95,9 +95,9 @@ namespace MyNewsApp_Desktop_
                 richTextBox1.AppendText(Root.articles[NewsCounter].content);
 
             }
-            catch (IOException ex)
+            catch (Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException)
             {
-                MessageBox.Show("Check Internet Connection "+ex);
+                MessageBox.Show("Check Internet Connection ");
             }
             //CleanUp
             
@@ -111,9 +111,9 @@ namespace MyNewsApp_Desktop_
                 SetupList();
                 CallAPI();
             }
-            catch(IOException ex)
+            catch(Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException)
             {
-                MessageBox.Show("Check Internet Connection "+ex);
+                MessageBox.Show("Check Internet Connection ");
             }
            
         }
@@ -124,9 +124,9 @@ namespace MyNewsApp_Desktop_
             {
 
             }
-            catch(IOException ex)
+            catch(Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException)
             {
-                MessageBox.Show("Check your internet Connections "+ex);
+                MessageBox.Show("Check your internet Connections ");
             }
         }
 
@@ -145,9 +145,9 @@ namespace MyNewsApp_Desktop_
                     SetupForm();
                 }
             }
-            catch(IOException ex)
+            catch(Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException)
             {
-                MessageBox.Show("Check internet Connection"+ex);
+                MessageBox.Show("Check internet Connection");
             }
             
         }
@@ -191,6 +191,11 @@ namespace MyNewsApp_Desktop_
             {
                 label1.Text = "Loading";
             }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("The NewsApp was created by Seth Michael on {0}, this software fetches data from a data source(API) and displays the informaion gathered.", DateTime.Now.ToShortDateString());
         }
     }
 }
