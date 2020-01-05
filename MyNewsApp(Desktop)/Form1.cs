@@ -50,7 +50,7 @@ namespace MyNewsApp_Desktop_
 
 
             }
-            catch (Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException)
+            catch (Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException || ex is System.InvalidOperationException)
             {
                 MessageBox.Show("Check Internet Connection ");
             }
@@ -65,7 +65,7 @@ namespace MyNewsApp_Desktop_
                 Root = await Config.Deserialize(this.URI_Collection[SourceCounter]);
                 SetupForm();
             }
-            catch(Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException)
+            catch(Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException || ex is System.InvalidOperationException)
             {
                 MessageBox.Show("Check Internet Connection ");
             }
@@ -95,7 +95,7 @@ namespace MyNewsApp_Desktop_
                 richTextBox1.AppendText(Root.articles[NewsCounter].content);
 
             }
-            catch (Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException)
+            catch (Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException || ex is System.InvalidOperationException)
             {
                 MessageBox.Show("Check Internet Connection ");
             }
@@ -111,7 +111,7 @@ namespace MyNewsApp_Desktop_
                 SetupList();
                 CallAPI();
             }
-            catch(Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException)
+            catch(Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException || ex is System.InvalidOperationException)
             {
                 MessageBox.Show("Check Internet Connection ");
             }
@@ -124,7 +124,7 @@ namespace MyNewsApp_Desktop_
             {
 
             }
-            catch(Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException)
+            catch(Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException || ex is System.InvalidOperationException)
             {
                 MessageBox.Show("Check your internet Connections ");
             }
@@ -145,7 +145,7 @@ namespace MyNewsApp_Desktop_
                     SetupForm();
                 }
             }
-            catch(Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException)
+            catch(Exception ex) when (ex is System.Net.WebException || ex is IOException || ex is System.NullReferenceException||ex is System.InvalidOperationException)
             {
                 MessageBox.Show("Check internet Connection");
             }
