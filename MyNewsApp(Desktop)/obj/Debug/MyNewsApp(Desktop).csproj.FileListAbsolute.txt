@@ -1,0 +1,12 @@
+C:\Users\sethm\source\repos\MyNewsApp(Desktop)\MyNewsApp(Desktop)\bin\Debug\MyNewsApp(Desktop).exe.config
+C:\Users\sethm\source\repos\MyNewsApp(Desktop)\MyNewsApp(Desktop)\bin\Debug\MyNewsApp(Desktop).exe
+C:\Users\sethm\source\repos\MyNewsApp(Desktop)\MyNewsApp(Desktop)\bin\Debug\MyNewsApp(Desktop).pdb
+C:\Users\sethm\source\repos\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Debug\MyNewsApp_Desktop_.Form1.resources
+C:\Users\sethm\source\repos\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Debug\MyNewsApp_Desktop_.Properties.Resources.resources
+C:\Users\sethm\source\repos\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Debug\MyNewsApp(Desktop).csproj.GenerateResource.cache
+C:\Users\sethm\source\repos\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Debug\MyNewsApp(Desktop).exe
+C:\Users\sethm\source\repos\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Debug\MyNewsApp(Desktop).pdb
+C:\Users\sethm\source\repos\MyNewsApp(Desktop)\MyNewsApp(Desktop)\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sethm\source\repos\MyNewsApp(Desktop)\MyNewsApp(Desktop)\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sethm\source\repos\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Debug\MyNewsApp(Desktop).csproj.CopyComplete
+C:\Users\sethm\source\repos\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Debug\MyNewsApp(Desktop).csprojAssemblyReference.cache
