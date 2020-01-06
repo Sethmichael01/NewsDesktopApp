@@ -1,0 +1,11 @@
+C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\bin\Release\MyNewsApp(Desktop).exe.config
+C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\bin\Release\MyNewsApp(Desktop).exe
+C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\bin\Release\MyNewsApp(Desktop).pdb
+C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\bin\Release\Newtonsoft.Json.dll
+C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\bin\Release\Newtonsoft.Json.xml
+C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Release\MyNewsApp_Desktop_.Form1.resources
+C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Release\MyNewsApp_Desktop_.Properties.Resources.resources
+C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Release\MyNewsApp(Desktop).csproj.GenerateResource.cache
+C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Release\MyNewsApp(Desktop).csproj.CopyComplete
+C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Release\MyNewsApp(Desktop).exe
+C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Release\MyNewsApp(Desktop).pdb
