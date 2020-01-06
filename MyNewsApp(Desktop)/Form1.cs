@@ -197,5 +197,6 @@ namespace MyNewsApp_Desktop_
         {
             MessageBox.Show("The NewsApp was created by Seth Michael, this software fetches data from a data source(API) and displays the informaion gathered.", DateTime.Now.ToShortDateString());
         }
+        
     }
 }
