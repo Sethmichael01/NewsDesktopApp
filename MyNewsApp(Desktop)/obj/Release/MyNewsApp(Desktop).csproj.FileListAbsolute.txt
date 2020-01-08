@@ -9,3 +9,4 @@ C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Release\MyNewsA
 C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Release\MyNewsApp(Desktop).csproj.CopyComplete
 C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Release\MyNewsApp(Desktop).exe
 C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Release\MyNewsApp(Desktop).pdb
+C:\Users\sethm\Desktop\MyNewsApp(Desktop)\MyNewsApp(Desktop)\obj\Release\MyNewsApp(Desktop).csprojAssemblyReference.cache
