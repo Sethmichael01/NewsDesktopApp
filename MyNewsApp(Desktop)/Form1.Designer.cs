@@ -130,15 +130,15 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(280, 10);
+            this.dateTimePicker1.Location = new System.Drawing.Point(12, 6);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(345, 20);
             this.dateTimePicker1.TabIndex = 8;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(486, 16);
+            this.label2.Location = new System.Drawing.Point(363, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(113, 13);
             this.label2.TabIndex = 9;
@@ -146,9 +146,9 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(771, 6);
+            this.button6.Location = new System.Drawing.Point(749, 6);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(98, 23);
+            this.button6.Size = new System.Drawing.Size(120, 23);
             this.button6.TabIndex = 10;
             this.button6.Text = "About Application";
             this.button6.UseVisualStyleBackColor = true;
@@ -179,7 +179,7 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Location = new System.Drawing.Point(81, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(872, 33);
+            this.panel2.Size = new System.Drawing.Size(872, 32);
             this.panel2.TabIndex = 13;
             // 
             // richTextBox1
@@ -225,7 +225,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(1065, 665);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
